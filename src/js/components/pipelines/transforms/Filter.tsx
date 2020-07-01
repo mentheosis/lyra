@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {FilterTransform} from 'vega';
-import parseExpr from 'vega-parser/src/parsers/expression';
+import parseExpr from 'vega-expression/src/parser';
 import {Property} from '../../inspectors/Property';
 
 const ctrl = require('../../../ctrl');
